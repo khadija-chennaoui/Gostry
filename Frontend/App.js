@@ -1,15 +1,17 @@
 import React from 'react';
 import {
-  Text,
   View,
 } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 import Header from './Shared/Header';
+import MainNavigator from './Nagivators/MainNavigator';
 
 const App = () => {
   return (
-    <View>
+    <NavigationContainer>
       <Header />
-    </View>
+      <MainNavigator />
+    </NavigationContainer>
   );
 }
 
