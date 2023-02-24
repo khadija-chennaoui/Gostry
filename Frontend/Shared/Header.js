@@ -1,13 +1,12 @@
 import React from 'react';
-import {StyleSheet, SafeAreaView, Image, View} from 'react-native';
+import {StyleSheet,Image, View} from 'react-native';
 
 const Header = () => {
   return (
     <View style={styles.header}>
       <Image
-        source={require('../Assets/images/image.png')}
+        source={require('../Assets/images/logo.png')}
         style={{width: 100, height: 50}}
-        // resizeMode="contain"
       />
     </View>
   );
