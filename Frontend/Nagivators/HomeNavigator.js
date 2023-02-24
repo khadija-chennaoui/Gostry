@@ -13,6 +13,7 @@ const HomeNavigator = () => {
           headerShown: false,
         }}
       />
+      {/* Product Details */}
     </Stack.Navigator>
   );
 };
