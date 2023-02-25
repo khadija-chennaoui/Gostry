@@ -8,6 +8,7 @@ import dotenv from 'dotenv';
 import errorHandling from './middlewares/errorHandling';
 import ExpressValidator = require('express-validator');
 import routeuser from "./routes/User";
+import adminRoute from "./routes/Admin"
 dotenv.config()
 
 class App {
@@ -45,6 +46,7 @@ class App {
 
     private initializeRoute() {
         this.app.use('/api/user', routeuser)
+        this.app.use('/api/admin', adminRoute)
         
     }
 
