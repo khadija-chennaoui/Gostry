@@ -1,5 +1,6 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import ProductContainer from '../Screens/Products/ProductContainer';
+import SingleProduct from '../Screens/Products/SingleProduct';
 
 const Stack = createNativeStackNavigator();
 
@@ -13,7 +14,9 @@ const HomeNavigator = () => {
           headerShown: false,
         }}
       />
-      {/* Product Details */}
+      <Stack.Screen name="Product Detail" component={SingleProduct} options={{
+        headerShown: false
+      }} />
     </Stack.Navigator>
   );
 };
