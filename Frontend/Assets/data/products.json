@@ -1,0 +1,93 @@
+[
+    {
+      "_id": {
+        "$oid": "5f15d8852a025143f9593a7c"
+      },
+      "image": "https://www.transparentpng.com/thumb/food/9iZtc8-download-hamburger-food-png.jpg",
+      "price": 250,
+      "rating": 1,
+      "numReviews": 0,
+      "isFeatured": true,
+      "name": "Burger",
+      "vendor":"vendor",
+      "description": "The most hard BURGER ever",
+      "category": {
+        "$oid": "5f15d5cdcb4a6642bddc0fe9"
+      },
+      "countInStock": 25,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "5f15d92ee520d44421ed8e9b"
+      },
+      "image": "https://assets.stickpng.com/images/5e9c1250823c2b00042c10de.png",
+      "price": 350.9,
+      "rating": 5,
+      "numReviews": 0,
+      "isFeatured": true,
+      "name": "tajin",
+      "vendor":"vendor",
+      "description": "beautiful Tajin for familly",
+      "category": {
+        "$oid": "5f15d545f3a046427a1c26e2"
+      },
+      "countInStock": 10,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "5f15d964e520d44421ed8e9c"
+      },
+      "image": "https://www.transparentpng.com/thumb/food/9iZtc8-download-hamburger-food-png.jpg",
+      "price": 1350.9,
+      "rating": 5,
+      "numReviews": 0,
+      "isFeatured": true,
+      "name": "pizza",
+      "vendor":"vendor",
+      "description": "beautiful Pizza for kids",
+      "category": {
+        "$oid": "5f15d5b7cb4a6642bddc0fe8"
+      },
+      "countInStock": 10,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "5f15d9b3e520d44421ed8e9d"
+      },
+      "image": "https://www.transparentpng.com/thumb/food/9iZtc8-download-hamburger-food-png.jpg",
+      "price": 490.9,
+      "rating": 5,
+      "numReviews": 0,
+      "isFeatured": true,
+      "name": "fish",
+      "vendor":"vendor",
+      "description": "morrocan fish for travels",
+      "category": {
+        "$oid": "5f15d5cdcb4a6642bddc0fe9"
+      },
+      "countInStock": 5,
+      "__v": 0
+    },
+    {
+      "_id": {
+        "$oid": "5f15da13e520d44421ed8e9e"
+      },
+      "image": "https://www.transparentpng.com/thumb/food/9iZtc8-download-hamburger-food-png.jpg",
+      "price": 1000,
+      "rating": 5,
+      "numReviews": null,
+      "isFeatured": true,
+      "name": "coscos",
+      "vendor":"vendor",
+      "description": "Big Coscos for friday",
+      "category": {
+        "$oid": "5f15d5cdcb4a6642bddc0fe9"
+      },
+      "countInStock": 2,
+      "__v": 0
+    }
+  ]
+  
