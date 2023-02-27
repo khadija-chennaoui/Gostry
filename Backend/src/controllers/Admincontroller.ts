@@ -31,7 +31,7 @@ export default class AdminFunction {
 
                 // Configuration de l'email
                 const mailOptions = {
-                    from: 'your-email@gmail.com',
+                    from: 'grocery@gmail.com',
                     to: user.email,
                     subject: 'Welcome to My Application',
                     text: `Your password for My Application is: ${req.body.password}, your role is: ${req.body.role}`
